@@ -1,1 +1,1 @@
-# AnnaMae's Bakery Website Project
+# AnnaMae
