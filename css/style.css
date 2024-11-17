@@ -1,0 +1,56 @@
+.sofia-sans-condensed-font {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+body{
+    font-family: "Sofia Sans Condensed";
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(10, minmax(30px, 1fr));
+    background-color: black;
+    color: white;
+    grid-gap:5px;
+}
+
+.f{
+    padding-top: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.f8{
+    grid-column-end: -1;
+}
+
+.f7{
+    grid-column-end: -2;
+}
+
+.f6{
+    grid-column-end: -3;
+}
+
+.f5{
+    grid-column-end: -4;
+}
+
+.f4{
+    grid-column-end: -5;
+}
+
+.f3{
+    grid-column-end: -6;
+}
+
+.f2{
+    grid-column-end: -7;
+}
+
+.f1{
+    grid-column-end: -8;
+}
