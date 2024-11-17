@@ -17,6 +17,16 @@ body{
     grid-gap:5px;
 }
 
+.pieImage{
+
+    max-width:100%;
+    height: auto;
+    /*
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr);
+    */
+}
+
 .f{
     padding-top: 40px;
     text-decoration: none;
