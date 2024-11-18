@@ -44,6 +44,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
+
 }
 
 .split{
@@ -113,11 +114,11 @@ h2.title6{
 }
 
 .buggy{
-    /*grid-column: span 2;*/
+    
 }
 
 .eat{
-    /*grid-column: span 2;*/
+
 }
 
 .pieImage{
