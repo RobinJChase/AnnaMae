@@ -25,6 +25,7 @@
 body{
     font-family: "Fira Sans Extra Condensed";
     font-weight: 200;
+    font-size:large;
 }
 
 .header{
@@ -37,6 +38,12 @@ body{
     font-style: normal;
     grid-gap:5px;
     
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 30px;
 }
 
 .split{
@@ -63,6 +70,7 @@ body{
 h2.title1{
     font-weight: 100;
     margin-bottom: 0;
+    font-size: 250%;
 }
 
 h2.title2{
@@ -71,6 +79,7 @@ h2.title2{
     display: inline-block;
     font-weight: 100;
     margin-top: 0;
+    font-size: 250%;
 }
 
 .pieImage{
@@ -81,6 +90,11 @@ h2.title2{
     display: grid;
     grid-template-columns: minmax(500px, 1fr);
     */
+}
+
+.bakeryVideo{
+    max-width: 200%;
+    height: auto;
 }
 
 .f{
