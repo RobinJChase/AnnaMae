@@ -42,7 +42,7 @@ body{
 
 .mainContainer{
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
 }
 
@@ -70,7 +70,7 @@ body{
 h2.title1{
     font-weight: 100;
     margin-bottom: 0;
-    font-size: 250%;
+    font-size: 400%;
 }
 
 h2.title2{
@@ -79,13 +79,13 @@ h2.title2{
     display: inline-block;
     font-weight: 100;
     margin-top: 0;
-    font-size: 250%;
+    font-size: 400%;
 }
 
 h2.title3{
     font-weight: 100;
     margin-bottom: 0;
-    font-size: 250%;
+    font-size: 400%;
 }
 
 h2.title4{
@@ -94,13 +94,13 @@ h2.title4{
     display: inline-block;
     font-weight: 100;
     margin-top: 0;
-    font-size: 250%;
+    font-size: 400%;
 }
 
 h2.title5{
     font-weight: 100;
     margin-bottom: 0;
-    font-size: 250%;
+    font-size: 400%;
 }
 
 h2.title6{
@@ -109,7 +109,15 @@ h2.title6{
     display: inline-block;
     font-weight: 100;
     margin-top: 0;
-    font-size: 250%;
+    font-size: 400%;
+}
+
+.buggy{
+    /*grid-column: span 2;*/
+}
+
+.eat{
+    /*grid-column: span 2;*/
 }
 
 .pieImage{
