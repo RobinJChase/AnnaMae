@@ -47,6 +47,13 @@ body{
 
 }
 
+.footer{
+    display: grid;
+    place-items: center;
+    padding-top: 0;
+    background-color: rgb(234, 234, 234);
+}
+
 .experience{
     display: grid;
     place-items: center;
