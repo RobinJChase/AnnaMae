@@ -47,6 +47,28 @@ body{
 
 }
 
+.experience{
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
+.bakeryVideo{
+    max-width: 200%;
+    height: auto;
+}
+
+.bold{
+    font-family: "Fira Sans Extra Condensed";
+    font-weight: 400;
+}
+
+.pies{
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
 .split{
 
     display: grid;
@@ -113,6 +135,30 @@ h2.title6{
     font-size: 400%;
 }
 
+h2.title7{
+    font-weight: 100;
+    margin-bottom: 0;
+    font-size: 400%;
+}
+
+h2.title8{
+
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-weight: 100;
+    margin-top: 0;
+    font-size: 400%;
+
+}
+
+.button1{
+    background-color: rgb(75, 125, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 .buggy{
     
 }
@@ -131,10 +177,7 @@ h2.title6{
     */
 }
 
-.bakeryVideo{
-    max-width: 200%;
-    height: auto;
-}
+
 
 .f{
     padding-top: 40px;
