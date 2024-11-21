@@ -42,8 +42,25 @@ body{
 
 .mainContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 30px;
+    
+
+}
+
+.buggy{
+ 
+    margin: 50px;
+    display: block;
+
+   
+
+}
+
+.eat{
+   
+    margin: 50px;
+    display: block;
 
 }
 
@@ -91,10 +108,12 @@ body{
 .part1{
     font-size: 120%;
     padding-bottom: -20px;
+    margin: 50px;
 }
 
 .part2{
     padding-top:-20px;
+    margin: 50px;
 }
 
 h2.title1{
@@ -166,13 +185,7 @@ h2.title8{
     padding: 10px;
 }
 
-.buggy{
-    
-}
 
-.eat{
-
-}
 
 .pieImage{
 
@@ -182,6 +195,7 @@ h2.title8{
     display: grid;
     grid-template-columns: minmax(500px, 1fr);
     */
+    margin-top: 0;
 }
 
 
