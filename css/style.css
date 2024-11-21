@@ -78,7 +78,7 @@ body{
 }
 
 .bakeryVideo{
-    max-width: 200%;
+    width: 200%;
     height: auto;
 }
 
@@ -189,15 +189,18 @@ h2.title8{
 
 .pieImage{
 
-    max-width:100%;
+    width:100%;
     height: auto;
     /*
     display: grid;
     grid-template-columns: minmax(500px, 1fr);
     */
-    margin-top: 0;
 }
 
+.bpieImage{
+    width: 100%;
+    height: auto;
+}
 
 
 .f{
