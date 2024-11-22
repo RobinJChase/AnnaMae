@@ -75,6 +75,16 @@ body{
     height: auto;
 }
 
+.giftCard{
+    display: grid;
+    place-items: center;
+}
+
+.giftCard2{
+    width: 40%;
+    height: auto;
+}
+
 .bold{
     font-family: "Fira Sans Extra Condensed";
     font-weight: 400;
