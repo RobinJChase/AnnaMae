@@ -26,6 +26,7 @@ body{
     font-family: "Fira Sans Extra Condensed";
     font-weight: 200;
     font-size:large;
+    margin: 0;
 }
 
 .header{
@@ -194,6 +195,7 @@ h2.title8{
 
     width:100%;
     height: auto;
+    margin-top: -22px;
     /*
     display: grid;
     grid-template-columns: minmax(500px, 1fr);
@@ -215,6 +217,7 @@ h2.title8{
     place-items: center;
     padding-top: 0;
     background-color: rgb(234, 234, 234);
+    padding-bottom: 50px;
 
 }
 
@@ -226,6 +229,12 @@ h2.title8{
 .manyPies{
     width: 100%;
     height: auto;
+}
+
+.manyPies2{
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
 }
 
 
